@@ -608,11 +608,11 @@ export default {
   /* all 'toggler-buttons' */
   background: rgb(232, 232, 232);
 }
-.adsk-control.adsk-toolbar {
-  bottom: auto !important;
-  top: 10px;
-}
 #MyViewerDivPlan {
+  .adsk-control.adsk-toolbar {
+    bottom: auto !important;
+    top: 10px;
+  }
   position: relative;
   width: 100%;
   overflow: hidden;

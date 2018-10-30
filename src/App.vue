@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container v-if="this.$route.path.indexOf('/model') === -1">
-      <el-header>AutoDesk Vue Demo</el-header>
+      <el-header>BIM5D 项目管理平台</el-header>
       <el-aside>
         <el-menu default-active="0" @open="handleOpen" @close="handleClose">
 

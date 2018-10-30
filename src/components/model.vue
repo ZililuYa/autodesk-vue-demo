@@ -1,6 +1,6 @@
 <template>
   <div id="MyViewerDiv" ref="viewerDiv">
-    <i class="el-icon-info" @click='$router.push("/modelPlan?urn="+$route.query.urn)'></i>
+    <!-- <i class="el-icon-info" @click='$router.push("/modelPlan?urn="+$route.query.urn)'></i> -->
   </div>
 </template>
 
